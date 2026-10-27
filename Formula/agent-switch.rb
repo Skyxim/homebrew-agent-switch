@@ -7,22 +7,22 @@ class AgentSwitch < Formula
   on_macos do
     on_arm do
       url "https://github.com/Skyxim/agent-switch/releases/download/v#{version}/ags-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "ac7b41c08ec87e7b58cfcd261c58f69d5ce95c8d57007fb219ea39250eea715e"
+      sha256 "8d76ddea93baa639f10445b7d6169283987c4c282f43f8041ed175f442250a37"
     end
     on_intel do
       url "https://github.com/Skyxim/agent-switch/releases/download/v#{version}/ags-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "7a0be1d8d1f0b3ebc47b74fbc9bc87a5f6f70ad957c1e90e52b6d6a64f30d100"
+      sha256 "31b0e651fda9fbe8c4a99cbea08db49b78fe24cd35a9480b9941becfd99a294b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Skyxim/agent-switch/releases/download/v#{version}/ags-#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "76f94d7b1afb47dbddbf33b367a7f5755d6039ef46b748dbd6b9d0b7b5158e36"
+      sha256 "0a8006d78619b65fbb9e3d65a679d3c2f9abe2d02ae8118582c77ab573a18650"
     end
     on_intel do
       url "https://github.com/Skyxim/agent-switch/releases/download/v#{version}/ags-#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "726829dd2aa36813b021b5acecf128a21a79b20e349d8113e175d76470b9d8c5"
+      sha256 "8c1f85c4ebf46ab0001cb7256dd71f2673dbfd989ab624a15f5e5a6a3bdb5009"
     end
   end
 
